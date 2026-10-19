@@ -1,0 +1,5 @@
+#include "ins_sort.hpp"
+#include <vector>
+
+template void sorte::ins_sort<int>(std::vector<int>&);
+template void sorte::ins_sort<double>(std::vector<double>&);
